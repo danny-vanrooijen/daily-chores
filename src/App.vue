@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import ChoresList from "./components/chores-list/ChoresList.vue";
+import Chores from "./components/chores/Chores.vue";
 </script>
 
 <template>
-  <chores-list />
+  <chores />
 </template>

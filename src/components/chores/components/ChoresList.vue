@@ -1,10 +1,15 @@
-<!-- ChoresList.vue -->
 <template>
   <div class="container">
     <h2>Chores:</h2>
-    <ul>
-      <li v-for="(chore, index) in chores" :key="index">{{ chore.name }}</li>
-    </ul>
+  </div>
+  <div class="container grid grid-cols-4 gap-8">
+    <div
+      v-for="(chore, index) in chores"
+      :key="index"
+      class="p-8 aspect-square rounded-xl bg-sky-800 shadow-choreButton text-white uppercase text-3xl font-thin border-l border-r border-sky-900 text-center"
+    >
+      {{ chore.name }}
+    </div>
   </div>
 </template>
 

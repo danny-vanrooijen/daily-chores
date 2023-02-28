@@ -1,4 +1,3 @@
-<!-- AddChore.vue -->
 <template>
   <div class="container">
     <h2>Add Chore:</h2>

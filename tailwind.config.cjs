@@ -6,6 +6,9 @@ module.exports = {
       container: {
         center: true,
       },
+      boxShadow: ({ theme }) => ({
+        choreButton: `0 5px ${theme("colors.sky.900")}`,
+      }),
     },
   },
   plugins: [],

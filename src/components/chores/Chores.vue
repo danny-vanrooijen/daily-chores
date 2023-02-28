@@ -7,7 +7,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from "@vue/reactivity";
+import { computed } from "vue";
 
 import ChoresList from "./components/ChoresList.vue";
 import AddChore from "./components/AddChore.vue";
